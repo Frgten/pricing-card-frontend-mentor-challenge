@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Roboto:wght@300&display=swap');
+
+
+html {
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+}
+h2,
+h4,
+p
+ul 
+{
+  margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+    padding: 20px;
+    font-size: 16px;
+    
+}
+
+
+#card {
+  width: 900px;
+  height: 800;
+  box-shadow:  7px 8px 9px -2px rgba(0,0,0,0.52);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#top-side {
+  width: 100%;
+  height: 45%;
+  padding: 25px;
+  
+}
+
+#bottom-side {
+  width: 100%;
+  height: 55%;
+  color:white
+  
+}
+
+#bottom-left {
+  width: 50%;
+  height: 60%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 20px;
+}
+
+#bottom-right {
+  width: 50%;
+  height: 60%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #32dbd8 ;
+  padding: 20px;
+  
+}
+
+#list {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    list-style: none;
+    padding: 0;
+}
+.click{
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    background-color: #c0df34;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.click:hover{
+    cursor: pointer;
+    background-color: #728520;
+    transform: scale(1.05);
+}
+
+#top-side h2 {
+    color:#2ab2af;
+    margin-bottom: 15px;
+}
+#top-side h4{
+    color: #c0df34;
+    margin-bottom: 10px;
+}
+
+#top-side p {
+    color:  #98a6bd
+}
+#price {
+    font-weight: 700;
+    font-size: 1.4rem;
+
+}
+
+#month{
+    font-size: 0.8rem;
+    opacity: 0.6;
+    position: relative;
+    top: -3px;
+    font-weight: 400;
+    color: #e5eff5
+    
+    
+}
+#month, #price{
+    display: inline-block;
+}
+#bottom-left h4{
+    margin-bottom: 25px;
+
+}
+
+#price-container{
+    margin-bottom: 10px;
+}
+#bottom-left p{
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+}
+
+
+
+    
